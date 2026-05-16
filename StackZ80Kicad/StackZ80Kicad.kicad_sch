@@ -1,0 +1,60 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4c0a47eb-fb3e-465f-943c-b46f6cbe080d")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 26.035 17.145)
+		(size 23.495 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d2c1cd9a-72b2-426f-b7bf-2d6d3127df9f")
+		(property "Sheetname" "Power Module"
+			(at 26.035 16.4334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerModule.kicad_sch"
+			(at 26.035 40.5896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StackZ80Kicad"
+				(path "/4c0a47eb-fb3e-465f-943c-b46f6cbe080d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
