@@ -43,6 +43,216 @@
 				(justify left top)
 			)
 		)
+		(pin "5V" bidirectional
+			(at 27.94 17.145 90)
+			(uuid "6ae53f7f-f38d-4dc3-8bfe-689585c3ac42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Addr[0..15]" bidirectional
+			(at 27.94 40.005 270)
+			(uuid "51e15791-dea5-4b8e-bdc1-4b95c3370658")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLK" bidirectional
+			(at 30.48 40.005 270)
+			(uuid "cff82117-315f-4e11-84e6-1d4add075bb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Data[0..7]" bidirectional
+			(at 33.02 40.005 270)
+			(uuid "e3adf92b-00dd-4679-b57e-608c58d29464")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 35.56 40.005 270)
+			(uuid "88b11cee-d530-41ce-bc67-fb2fd57b8693")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IEDown" bidirectional
+			(at 38.1 40.005 270)
+			(uuid "76c6b741-78d2-4816-bec1-01eab2472d63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IEUp" bidirectional
+			(at 40.64 40.005 270)
+			(uuid "029cb0e4-b309-4f24-8c1a-e454c33d92dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rx_1" bidirectional
+			(at 43.18 40.005 270)
+			(uuid "770c30be-fa62-4a8b-8f1e-e7c1b27e494f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Rx_2" bidirectional
+			(at 45.72 40.005 270)
+			(uuid "f44097b8-0b2d-4edf-8145-17db50978170")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Tx_1" bidirectional
+			(at 43.18 17.145 90)
+			(uuid "d7aa9e49-1184-42d7-aecd-4b72cef863c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Tx_2" bidirectional
+			(at 45.72 17.145 90)
+			(uuid "645223bd-2b60-4d5d-827d-535483b116ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{CTSA}" bidirectional
+			(at 40.64 17.145 90)
+			(uuid "c83c7af6-6c0e-4689-919f-2a2f5d10a944")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{CTSB}" bidirectional
+			(at 38.1 17.145 90)
+			(uuid "e40f3ad2-a8e2-4aeb-98e5-ef938a163f9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{INT}" bidirectional
+			(at 35.56 17.145 90)
+			(uuid "019a5892-b081-4afd-9020-6448c401d34f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{IORQ}" bidirectional
+			(at 33.02 17.145 90)
+			(uuid "6025bd23-8e66-46a6-9f64-8b139f6bbfb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{M1}" bidirectional
+			(at 30.48 17.145 90)
+			(uuid "7326e260-f887-433f-b02a-b2c487df8ede")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RD}" bidirectional
+			(at 49.53 24.13 0)
+			(uuid "cbfa29aa-6686-4ed4-b5be-999559c60363")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RESET}" bidirectional
+			(at 49.53 26.67 0)
+			(uuid "15e5858c-b6db-438d-aa28-af242d578406")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RTSA}" bidirectional
+			(at 49.53 29.21 0)
+			(uuid "dca79eda-8a4c-4f4a-9ef4-9ff3f829fbf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RTSB}" bidirectional
+			(at 49.53 31.75 0)
+			(uuid "e8b09576-5383-49e7-a6e9-4fe0f83d6072")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{SIO_CS}" bidirectional
+			(at 26.035 24.13 180)
+			(uuid "6dd8bb7c-dcca-4219-b14f-a4c429acbae9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "StackZ80Kicad"
 				(path "/4c0a47eb-fb3e-465f-943c-b46f6cbe080d"

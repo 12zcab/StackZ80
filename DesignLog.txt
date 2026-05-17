@@ -1,0 +1,19 @@
+Power and Serial Module:
+ICs & Logic
+1x Zilog SIO/2 (Z84C4006PEC / Z84C4010PEC) [DIP-40]
+2x CH340C USB-to-UART [SOP-16]
+1x 74HCT688
+2x USB-C Receptacles (HRO TYPE-C-31-M-12)
+2x 20-pin Stacking Headers (2.54mm, dual-row, long pins)
+1x SS-12D00 Slide Switch
+
+Power & Protection
+1x 3A Polyfuse Resettable Fuse
+1x 47µF–100µF Electrolytic Capacitor (10V+)
+4x 0.1µF (104) Bypass Capacitors
+
+Resistors & LEDs
+4x 5.1kΩ Resistors (USB-C CC lines Signal)
+5x 1kΩ Resistors for LED
+5x LEDs (1x Power, 2x Port A RX/TX, 2x Port B RX/TX)1x 6 DIP Switch
+1x  6 Resistor Network
