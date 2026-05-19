@@ -416,7 +416,7 @@
         "uuid": "4c0a47eb-fb3e-465f-943c-b46f6cbe080d"
       }
     ],
-    "used_designators": "RN1-2,F1,R1,R3-9,J1-4,U1-5,SW1-3,D2-7",
+    "used_designators": "RN1-5,F1,R1,R3-15,J1-4,U1-9,SW1-8,D2-7,Y1,C6-9",
     "variants": []
   },
   "sheets": [
@@ -427,6 +427,14 @@
     [
       "d2c1cd9a-72b2-426f-b7bf-2d6d3127df9f",
       "Power Module"
+    ],
+    [
+      "79d6ed91-38b6-470a-8bf7-3a6bbdac8d22",
+      "Clock and CPU Module"
+    ],
+    [
+      "8288559f-4ad5-4043-aa76-635de0ce09d4",
+      "ROM_Switchable"
     ]
   ],
   "text_variables": {},

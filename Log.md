@@ -13,3 +13,8 @@ next time we will move on to the CPU and Clock Module
 
 then may be Day 5 we will start to do the Memory Module (the Memory Module may divide into RAM and EEPROM and also have Configurable Address DIP switches for better Extension)
 
+Day3 StackZ80 19/5/2026
+
+finished CPU Module and Clock Module Design.
+Will work on Maskable ROM and Multibank RAM module later (For CP/M)
+(Also the Disk EEPROM module too)

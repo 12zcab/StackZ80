@@ -1,3 +1,4 @@
+==Power Module and Serial Module
 Power and Serial Module:
 ICs & Logic
 1x Zilog SIO/2 (Z84C4006PEC / Z84C4010PEC) [DIP-40]
@@ -17,3 +18,23 @@ Resistors & LEDs
 5x 1kΩ Resistors for LED
 5x LEDs (1x Power, 2x Port A RX/TX, 2x Port B RX/TX)1x 6 DIP Switch
 1x  6 Resistor Network
+
+
+
+
+==CPU and Clock Module (8MHz)
+ICs & Logic
+1x Zilog Z80 CPU (Z84C0008PEC) [DIP-40] (8MHz rated CMOS version)
+1x 7.3728 MHz Active Crystal Oscillator [DIP-14 / 4-pin]
+1x 74HCT04 Hex Inverter [DIP-14] (Essential for clock buffering)
+2x 20-pin Stacking Headers (2.54mm, dual-row, long pins)
+Power & Protection
+1x 10µF Electrolytic Capacitor (10V+) [Radial] (For Power-On Reset delay)
+3x 0.1µF (104) Bypass Capacitors [Ceramic] (One each for CPU, Oscillator, and 74HCT04)
+Resistors & Buttons
+1x 10kΩ Bussed Resistor Network [DIP-9 or DIP-10] (For pulling up Z80 control lines)
+1x 10kΩ Resistor [Through-hole] (For the Reset RC circuit)
+1x Tactile Push Button (6x6mm) [Through-hole] (Manual Reset switch)
+
+
+==Memory Module

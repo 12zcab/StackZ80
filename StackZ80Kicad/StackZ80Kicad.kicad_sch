@@ -6,6 +6,98 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 59.69 17.145)
+		(size 26.035 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "79d6ed91-38b6-470a-8bf7-3a6bbdac8d22")
+		(property "Sheetname" "Clock and CPU Module"
+			(at 59.69 16.4334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU_CLK.kicad_sch"
+			(at 59.69 40.5896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StackZ80Kicad"
+				(path "/4c0a47eb-fb3e-465f-943c-b46f6cbe080d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 59.69)
+		(size 23.495 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8288559f-4ad5-4043-aa76-635de0ce09d4")
+		(property "Sheetname" "ROM_Switchable"
+			(at 25.4 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EEPROM_Maskable.kicad_sch"
+			(at 25.4 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StackZ80Kicad"
+				(path "/4c0a47eb-fb3e-465f-943c-b46f6cbe080d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 26.035 17.145)
 		(size 23.495 22.86)
 		(exclude_from_sim no)
