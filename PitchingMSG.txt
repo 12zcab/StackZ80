@@ -1,0 +1,41 @@
+BurnOut Pitching.
+• Project Name   StackZ80 Computer
+ • Description   a Modularized Z80 Retro Computer that is Stackable (THAT THEORATICALLY SUPPORT ALL Z80 Programmes)
+  Current REPO:https://github.com/12zcab/StackZ80/  (with the Clock and CPU module finished currently.)
+ • Justification: 
+    I know that normal FallOut grant funding may be enough for me but I still consider this project suitable for BurnOut
+    I need to design MANY PCBS as the whole computer is divided into about 10-12 modules including:
+       -CPU and Clock Module
+       -Maskable ROM Module
+       -EEPROM Program Socket Module
+       -CP/M System Requirement MultiBanked Memory Module
+       -ESP32 MCU Computing Module
+       -DMA Module
+       -Programming Module
+       -1602Module
+       -I2C Module
+       -Programmable Interrupt Module
+       -Disk and Storage Module
+       -Sound Module
+       -Debug Module
+       -GPIO Module
+       -RTC Module
+       -LED Matrix Module
+       -Keyboard Module
+       IF I have enough time:
+       -Video Module
+    2.I also need to write some assembly codes to drive those modules
+    3.Modularized computer requires a really complex system planning in order to enable people to extend its functionality
+ • BOM Breakdown: rough BOM + total funding estimate 
+       -Mostly Customized PCBs and 2.54 Pins
+       -Dupont Wires
+       -MANY 74 series ICs
+       -MANY old Retro ICs such as Z8X series
+       Yeah actually the BOM part is really erm simple as its just mainly a electronic project (Yet i may design some cases with acrylic?).
+ • Past Projects:
+        https://github.com/12zcab/Handheld-Z80-Retro-Computer
+        https://github.com/12zcab/Retro-Pad
+        Sorry i don't have much shipped projects currently
+I understand that currently I am quite new to HackClub and still lack some Past Project History to persuade u guys.
+If u reject this project due to the mentioned problem,I'm willing to finish the basic modules of the computer first and apply for BurnOut when my project have some progress and have some high quality content.
+Also I kinda wanna know if BurnOut will provide u KOIs as i think i may need to buy a simple logic analyzer with hardware grant.
