@@ -1601,6 +1601,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2083,6 +2284,210 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Push_SPDT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Momentary Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_SPDT_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.016) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_SPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.2032) (xy 2.3368 1.9812)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3155,6 +3560,17 @@
 		)
 		(uuid "036d3901-bc03-4916-9189-70b05f4056ab")
 	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 137.16 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b8c7f34-3a77-4286-9623-d4a24dd6e00e")
+	)
 	(hierarchical_label "~{RESET}"
 		(shape bidirectional)
 		(at 52.07 91.44 180)
@@ -3187,6 +3603,17 @@
 			(justify right)
 		)
 		(uuid "288747b7-6c3d-4ef2-ba88-e3f7b22b9d43")
+	)
+	(hierarchical_label "CLK"
+		(shape bidirectional)
+		(at 129.54 57.15 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3abb5649-a69d-4cfe-88ed-057ff5213367")
 	)
 	(hierarchical_label "~{BUSREQ}"
 		(shape bidirectional)
@@ -3286,17 +3713,6 @@
 			(justify right)
 		)
 		(uuid "ca96c801-b759-42d1-85d4-8abfd39931e0")
-	)
-	(hierarchical_label "CLK"
-		(shape bidirectional)
-		(at 119.38 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d519d796-19b2-4067-a0d5-797e12aed1b0")
 	)
 	(hierarchical_label "~{RD}"
 		(shape bidirectional)
@@ -3697,46 +4113,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "cb33b302-b7cf-487e-859b-d6eef97f2bbe")
+			(uuid "cb33b302-b7cf-487e-859b-d6eef97f2bbf")
 		)
 		(pin "12"
-			(uuid "f85f33ac-7944-4e0f-a422-3178836be68f")
+			(uuid "f85f33ac-7944-4e0f-a422-3178836be690")
 		)
 		(pin "11"
-			(uuid "f423f570-d162-4acd-8da6-1f615e6246b6")
+			(uuid "f423f570-d162-4acd-8da6-1f615e6246b7")
 		)
 		(pin "6"
-			(uuid "16bd355b-1b40-4f76-8549-44677e163bfb")
+			(uuid "16bd355b-1b40-4f76-8549-44677e163bfc")
 		)
 		(pin "5"
-			(uuid "4f9fc8cf-b002-4dfb-b121-73d78c3b1558")
+			(uuid "4f9fc8cf-b002-4dfb-b121-73d78c3b1559")
 		)
 		(pin "7"
-			(uuid "aec5c047-cee9-42a3-95da-189e79b218bf")
+			(uuid "aec5c047-cee9-42a3-95da-189e79b218c0")
 		)
 		(pin "10"
-			(uuid "ccdf8af7-2ce3-478c-8f8c-5faee9134574")
+			(uuid "ccdf8af7-2ce3-478c-8f8c-5faee9134575")
 		)
 		(pin "8"
-			(uuid "e03a0c0d-4caa-4fed-909d-fce592723e90")
+			(uuid "e03a0c0d-4caa-4fed-909d-fce592723e91")
 		)
 		(pin "2"
-			(uuid "7b3297af-a06e-45cd-a85b-1561569cde1c")
+			(uuid "7b3297af-a06e-45cd-a85b-1561569cde1d")
 		)
 		(pin "1"
-			(uuid "3e864747-f500-4327-87c6-b3637959c54d")
+			(uuid "3e864747-f500-4327-87c6-b3637959c54e")
 		)
 		(pin "4"
-			(uuid "a24b6870-3be0-42c1-9b5d-b8bec65aea57")
+			(uuid "a24b6870-3be0-42c1-9b5d-b8bec65aea58")
 		)
 		(pin "3"
-			(uuid "544eed34-73b8-4ca5-ab02-35a12278ab05")
+			(uuid "544eed34-73b8-4ca5-ab02-35a12278ab06")
 		)
 		(pin "13"
-			(uuid "f21020f5-5088-4d8c-ac8a-08ba8e3d641e")
+			(uuid "f21020f5-5088-4d8c-ac8a-08ba8e3d641f")
 		)
 		(pin "14"
-			(uuid "62f01ae4-fdb2-47ef-8e2b-d6c77d996922")
+			(uuid "62f01ae4-fdb2-47ef-8e2b-d6c77d996923")
 		)
 		(instances
 			(project "StackZ80Kicad"
@@ -3893,52 +4309,135 @@
 			)
 		)
 		(pin "9"
-			(uuid "cb33b302-b7cf-487e-859b-d6eef97f2bbe")
+			(uuid "cb33b302-b7cf-487e-859b-d6eef97f2bc0")
 		)
 		(pin "12"
-			(uuid "f85f33ac-7944-4e0f-a422-3178836be68f")
+			(uuid "f85f33ac-7944-4e0f-a422-3178836be691")
 		)
 		(pin "11"
-			(uuid "f423f570-d162-4acd-8da6-1f615e6246b6")
+			(uuid "f423f570-d162-4acd-8da6-1f615e6246b8")
 		)
 		(pin "6"
-			(uuid "16bd355b-1b40-4f76-8549-44677e163bfb")
+			(uuid "16bd355b-1b40-4f76-8549-44677e163bfd")
 		)
 		(pin "5"
-			(uuid "4f9fc8cf-b002-4dfb-b121-73d78c3b1558")
+			(uuid "4f9fc8cf-b002-4dfb-b121-73d78c3b155a")
 		)
 		(pin "7"
-			(uuid "aec5c047-cee9-42a3-95da-189e79b218bf")
+			(uuid "aec5c047-cee9-42a3-95da-189e79b218c1")
 		)
 		(pin "10"
-			(uuid "ccdf8af7-2ce3-478c-8f8c-5faee9134574")
+			(uuid "ccdf8af7-2ce3-478c-8f8c-5faee9134576")
 		)
 		(pin "8"
-			(uuid "e03a0c0d-4caa-4fed-909d-fce592723e90")
+			(uuid "e03a0c0d-4caa-4fed-909d-fce592723e92")
 		)
 		(pin "2"
-			(uuid "7b3297af-a06e-45cd-a85b-1561569cde1c")
+			(uuid "7b3297af-a06e-45cd-a85b-1561569cde1e")
 		)
 		(pin "1"
-			(uuid "3e864747-f500-4327-87c6-b3637959c54d")
+			(uuid "3e864747-f500-4327-87c6-b3637959c54f")
 		)
 		(pin "4"
-			(uuid "a24b6870-3be0-42c1-9b5d-b8bec65aea57")
+			(uuid "a24b6870-3be0-42c1-9b5d-b8bec65aea59")
 		)
 		(pin "3"
-			(uuid "544eed34-73b8-4ca5-ab02-35a12278ab05")
+			(uuid "544eed34-73b8-4ca5-ab02-35a12278ab07")
 		)
 		(pin "13"
-			(uuid "f21020f5-5088-4d8c-ac8a-08ba8e3d641e")
+			(uuid "f21020f5-5088-4d8c-ac8a-08ba8e3d6420")
 		)
 		(pin "14"
-			(uuid "62f01ae4-fdb2-47ef-8e2b-d6c77d996922")
+			(uuid "62f01ae4-fdb2-47ef-8e2b-d6c77d996924")
 		)
 		(instances
 			(project "StackZ80Kicad"
 				(path "/4c0a47eb-fb3e-465f-943c-b46f6cbe080d/79d6ed91-38b6-470a-8bf7-3a6bbdac8d22"
 					(reference "U6")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_SPDT")
+		(at 124.46 57.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96bc062c-5a7f-4206-a278-9e4b6c301a71")
+		(property "Reference" "SW15"
+			(at 124.46 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Clock Auto"
+			(at 124.46 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Momentary Switch, single pole double throw"
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b467ddbf-d4cd-48bf-b949-3bd6cfd1afae")
+		)
+		(pin "2"
+			(uuid "73b0ad86-8127-4443-b000-6ee60e95f01a")
+		)
+		(pin "1"
+			(uuid "a256ea95-74d4-421b-bb0e-c19ad358a1f5")
+		)
+		(instances
+			(project "StackZ80Kicad"
+				(path "/4c0a47eb-fb3e-465f-943c-b46f6cbe080d/79d6ed91-38b6-470a-8bf7-3a6bbdac8d22"
+					(reference "SW15")
+					(unit 1)
 				)
 			)
 		)
@@ -4089,46 +4588,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "cb33b302-b7cf-487e-859b-d6eef97f2bbe")
+			(uuid "cb33b302-b7cf-487e-859b-d6eef97f2bc1")
 		)
 		(pin "12"
-			(uuid "f85f33ac-7944-4e0f-a422-3178836be68f")
+			(uuid "f85f33ac-7944-4e0f-a422-3178836be692")
 		)
 		(pin "11"
-			(uuid "f423f570-d162-4acd-8da6-1f615e6246b6")
+			(uuid "f423f570-d162-4acd-8da6-1f615e6246b9")
 		)
 		(pin "6"
-			(uuid "16bd355b-1b40-4f76-8549-44677e163bfb")
+			(uuid "16bd355b-1b40-4f76-8549-44677e163bfe")
 		)
 		(pin "5"
-			(uuid "4f9fc8cf-b002-4dfb-b121-73d78c3b1558")
+			(uuid "4f9fc8cf-b002-4dfb-b121-73d78c3b155b")
 		)
 		(pin "7"
-			(uuid "aec5c047-cee9-42a3-95da-189e79b218bf")
+			(uuid "aec5c047-cee9-42a3-95da-189e79b218c2")
 		)
 		(pin "10"
-			(uuid "ccdf8af7-2ce3-478c-8f8c-5faee9134574")
+			(uuid "ccdf8af7-2ce3-478c-8f8c-5faee9134577")
 		)
 		(pin "8"
-			(uuid "e03a0c0d-4caa-4fed-909d-fce592723e90")
+			(uuid "e03a0c0d-4caa-4fed-909d-fce592723e93")
 		)
 		(pin "2"
-			(uuid "7b3297af-a06e-45cd-a85b-1561569cde1c")
+			(uuid "7b3297af-a06e-45cd-a85b-1561569cde1f")
 		)
 		(pin "1"
-			(uuid "3e864747-f500-4327-87c6-b3637959c54d")
+			(uuid "3e864747-f500-4327-87c6-b3637959c550")
 		)
 		(pin "4"
-			(uuid "a24b6870-3be0-42c1-9b5d-b8bec65aea57")
+			(uuid "a24b6870-3be0-42c1-9b5d-b8bec65aea5a")
 		)
 		(pin "3"
-			(uuid "544eed34-73b8-4ca5-ab02-35a12278ab05")
+			(uuid "544eed34-73b8-4ca5-ab02-35a12278ab08")
 		)
 		(pin "13"
-			(uuid "f21020f5-5088-4d8c-ac8a-08ba8e3d641e")
+			(uuid "f21020f5-5088-4d8c-ac8a-08ba8e3d6421")
 		)
 		(pin "14"
-			(uuid "62f01ae4-fdb2-47ef-8e2b-d6c77d996922")
+			(uuid "62f01ae4-fdb2-47ef-8e2b-d6c77d996925")
 		)
 		(instances
 			(project "StackZ80Kicad"
@@ -4498,6 +4997,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 133.35 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cff7fd6a-cd9d-45c3-8b61-743a96baa627")
+		(property "Reference" "D8"
+			(at 131.7625 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Clock_Enabled"
+			(at 131.7625 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 133.35 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 133.35 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5dc70a97-36e5-4cf6-8349-ebea2cabca0e")
+		)
+		(pin "1"
+			(uuid "193f72ad-d0d8-47db-8324-22a7050d7204")
+		)
+		(instances
+			(project "StackZ80Kicad"
+				(path "/4c0a47eb-fb3e-465f-943c-b46f6cbe080d/79d6ed91-38b6-470a-8bf7-3a6bbdac8d22"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HCT04")
 		(at 111.76 54.61 0)
 		(unit 2)
@@ -4563,46 +5153,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "cb33b302-b7cf-487e-859b-d6eef97f2bbe")
+			(uuid "cb33b302-b7cf-487e-859b-d6eef97f2bc2")
 		)
 		(pin "12"
-			(uuid "f85f33ac-7944-4e0f-a422-3178836be68f")
+			(uuid "f85f33ac-7944-4e0f-a422-3178836be693")
 		)
 		(pin "11"
-			(uuid "f423f570-d162-4acd-8da6-1f615e6246b6")
+			(uuid "f423f570-d162-4acd-8da6-1f615e6246ba")
 		)
 		(pin "6"
-			(uuid "16bd355b-1b40-4f76-8549-44677e163bfb")
+			(uuid "16bd355b-1b40-4f76-8549-44677e163bff")
 		)
 		(pin "5"
-			(uuid "4f9fc8cf-b002-4dfb-b121-73d78c3b1558")
+			(uuid "4f9fc8cf-b002-4dfb-b121-73d78c3b155c")
 		)
 		(pin "7"
-			(uuid "aec5c047-cee9-42a3-95da-189e79b218bf")
+			(uuid "aec5c047-cee9-42a3-95da-189e79b218c3")
 		)
 		(pin "10"
-			(uuid "ccdf8af7-2ce3-478c-8f8c-5faee9134574")
+			(uuid "ccdf8af7-2ce3-478c-8f8c-5faee9134578")
 		)
 		(pin "8"
-			(uuid "e03a0c0d-4caa-4fed-909d-fce592723e90")
+			(uuid "e03a0c0d-4caa-4fed-909d-fce592723e94")
 		)
 		(pin "2"
-			(uuid "7b3297af-a06e-45cd-a85b-1561569cde1c")
+			(uuid "7b3297af-a06e-45cd-a85b-1561569cde20")
 		)
 		(pin "1"
-			(uuid "3e864747-f500-4327-87c6-b3637959c54d")
+			(uuid "3e864747-f500-4327-87c6-b3637959c551")
 		)
 		(pin "4"
-			(uuid "a24b6870-3be0-42c1-9b5d-b8bec65aea57")
+			(uuid "a24b6870-3be0-42c1-9b5d-b8bec65aea5b")
 		)
 		(pin "3"
-			(uuid "544eed34-73b8-4ca5-ab02-35a12278ab05")
+			(uuid "544eed34-73b8-4ca5-ab02-35a12278ab09")
 		)
 		(pin "13"
-			(uuid "f21020f5-5088-4d8c-ac8a-08ba8e3d641e")
+			(uuid "f21020f5-5088-4d8c-ac8a-08ba8e3d6422")
 		)
 		(pin "14"
-			(uuid "62f01ae4-fdb2-47ef-8e2b-d6c77d996922")
+			(uuid "62f01ae4-fdb2-47ef-8e2b-d6c77d996926")
 		)
 		(instances
 			(project "StackZ80Kicad"
@@ -4679,46 +5269,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "cb33b302-b7cf-487e-859b-d6eef97f2bbe")
+			(uuid "cb33b302-b7cf-487e-859b-d6eef97f2bc3")
 		)
 		(pin "12"
-			(uuid "f85f33ac-7944-4e0f-a422-3178836be68f")
+			(uuid "f85f33ac-7944-4e0f-a422-3178836be694")
 		)
 		(pin "11"
-			(uuid "f423f570-d162-4acd-8da6-1f615e6246b6")
+			(uuid "f423f570-d162-4acd-8da6-1f615e6246bb")
 		)
 		(pin "6"
-			(uuid "16bd355b-1b40-4f76-8549-44677e163bfb")
+			(uuid "16bd355b-1b40-4f76-8549-44677e163c00")
 		)
 		(pin "5"
-			(uuid "4f9fc8cf-b002-4dfb-b121-73d78c3b1558")
+			(uuid "4f9fc8cf-b002-4dfb-b121-73d78c3b155d")
 		)
 		(pin "7"
-			(uuid "aec5c047-cee9-42a3-95da-189e79b218bf")
+			(uuid "aec5c047-cee9-42a3-95da-189e79b218c4")
 		)
 		(pin "10"
-			(uuid "ccdf8af7-2ce3-478c-8f8c-5faee9134574")
+			(uuid "ccdf8af7-2ce3-478c-8f8c-5faee9134579")
 		)
 		(pin "8"
-			(uuid "e03a0c0d-4caa-4fed-909d-fce592723e90")
+			(uuid "e03a0c0d-4caa-4fed-909d-fce592723e95")
 		)
 		(pin "2"
-			(uuid "7b3297af-a06e-45cd-a85b-1561569cde1c")
+			(uuid "7b3297af-a06e-45cd-a85b-1561569cde21")
 		)
 		(pin "1"
-			(uuid "3e864747-f500-4327-87c6-b3637959c54d")
+			(uuid "3e864747-f500-4327-87c6-b3637959c552")
 		)
 		(pin "4"
-			(uuid "a24b6870-3be0-42c1-9b5d-b8bec65aea57")
+			(uuid "a24b6870-3be0-42c1-9b5d-b8bec65aea5c")
 		)
 		(pin "3"
-			(uuid "544eed34-73b8-4ca5-ab02-35a12278ab05")
+			(uuid "544eed34-73b8-4ca5-ab02-35a12278ab0a")
 		)
 		(pin "13"
-			(uuid "f21020f5-5088-4d8c-ac8a-08ba8e3d641e")
+			(uuid "f21020f5-5088-4d8c-ac8a-08ba8e3d6423")
 		)
 		(pin "14"
-			(uuid "62f01ae4-fdb2-47ef-8e2b-d6c77d996922")
+			(uuid "62f01ae4-fdb2-47ef-8e2b-d6c77d996927")
 		)
 		(instances
 			(project "StackZ80Kicad"
@@ -4961,46 +5551,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "cb33b302-b7cf-487e-859b-d6eef97f2bbe")
+			(uuid "cb33b302-b7cf-487e-859b-d6eef97f2bc4")
 		)
 		(pin "12"
-			(uuid "f85f33ac-7944-4e0f-a422-3178836be68f")
+			(uuid "f85f33ac-7944-4e0f-a422-3178836be695")
 		)
 		(pin "11"
-			(uuid "f423f570-d162-4acd-8da6-1f615e6246b6")
+			(uuid "f423f570-d162-4acd-8da6-1f615e6246bc")
 		)
 		(pin "6"
-			(uuid "16bd355b-1b40-4f76-8549-44677e163bfb")
+			(uuid "16bd355b-1b40-4f76-8549-44677e163c01")
 		)
 		(pin "5"
-			(uuid "4f9fc8cf-b002-4dfb-b121-73d78c3b1558")
+			(uuid "4f9fc8cf-b002-4dfb-b121-73d78c3b155e")
 		)
 		(pin "7"
-			(uuid "aec5c047-cee9-42a3-95da-189e79b218bf")
+			(uuid "aec5c047-cee9-42a3-95da-189e79b218c5")
 		)
 		(pin "10"
-			(uuid "ccdf8af7-2ce3-478c-8f8c-5faee9134574")
+			(uuid "ccdf8af7-2ce3-478c-8f8c-5faee913457a")
 		)
 		(pin "8"
-			(uuid "e03a0c0d-4caa-4fed-909d-fce592723e90")
+			(uuid "e03a0c0d-4caa-4fed-909d-fce592723e96")
 		)
 		(pin "2"
-			(uuid "7b3297af-a06e-45cd-a85b-1561569cde1c")
+			(uuid "7b3297af-a06e-45cd-a85b-1561569cde22")
 		)
 		(pin "1"
-			(uuid "3e864747-f500-4327-87c6-b3637959c54d")
+			(uuid "3e864747-f500-4327-87c6-b3637959c553")
 		)
 		(pin "4"
-			(uuid "a24b6870-3be0-42c1-9b5d-b8bec65aea57")
+			(uuid "a24b6870-3be0-42c1-9b5d-b8bec65aea5d")
 		)
 		(pin "3"
-			(uuid "544eed34-73b8-4ca5-ab02-35a12278ab05")
+			(uuid "544eed34-73b8-4ca5-ab02-35a12278ab0b")
 		)
 		(pin "13"
-			(uuid "f21020f5-5088-4d8c-ac8a-08ba8e3d641e")
+			(uuid "f21020f5-5088-4d8c-ac8a-08ba8e3d6424")
 		)
 		(pin "14"
-			(uuid "62f01ae4-fdb2-47ef-8e2b-d6c77d996922")
+			(uuid "62f01ae4-fdb2-47ef-8e2b-d6c77d996928")
 		)
 		(instances
 			(project "StackZ80Kicad"

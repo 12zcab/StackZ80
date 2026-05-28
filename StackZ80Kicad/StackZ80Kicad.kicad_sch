@@ -98,6 +98,52 @@
 		)
 	)
 	(sheet
+		(at 109.855 17.145)
+		(size 25.4 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "82c5b138-c5ff-4c6a-92e5-d003abf2b72a")
+		(property "Sheetname" "Control Panel"
+			(at 109.855 16.4334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Control_Panel.kicad_sch"
+			(at 109.855 40.5896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StackZ80Kicad"
+				(path "/4c0a47eb-fb3e-465f-943c-b46f6cbe080d"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 26.035 17.145)
 		(size 23.495 22.86)
 		(exclude_from_sim no)
@@ -349,6 +395,52 @@
 			(project "StackZ80Kicad"
 				(path "/4c0a47eb-fb3e-465f-943c-b46f6cbe080d"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 59.69)
+		(size 23.495 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eb59fe5e-b5fc-4a0f-a3e7-d1631d06a0c2")
+		(property "Sheetname" "RAM_Switchable"
+			(at 59.69 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SRAM_Maskable.kicad_sch"
+			(at 59.69 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StackZ80Kicad"
+				(path "/4c0a47eb-fb3e-465f-943c-b46f6cbe080d"
+					(page "5")
 				)
 			)
 		)

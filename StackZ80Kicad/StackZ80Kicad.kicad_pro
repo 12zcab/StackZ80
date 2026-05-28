@@ -416,7 +416,7 @@
         "uuid": "4c0a47eb-fb3e-465f-943c-b46f6cbe080d"
       }
     ],
-    "used_designators": "RN1-5,F1,R1,R3-15,J1-4,U1-9,SW1-8,D2-7,Y1,C6-9",
+    "used_designators": "RN1-13,F1,R1,R3-15,J1-4,U1-19,SW1-20,D2-9,Y1,C6-9,BAR1-8",
     "variants": []
   },
   "sheets": [
@@ -435,6 +435,14 @@
     [
       "8288559f-4ad5-4043-aa76-635de0ce09d4",
       "ROM_Switchable"
+    ],
+    [
+      "eb59fe5e-b5fc-4a0f-a3e7-d1631d06a0c2",
+      "RAM_Switchable"
+    ],
+    [
+      "82c5b138-c5ff-4c6a-92e5-d003abf2b72a",
+      "Control Panel"
     ]
   ],
   "text_variables": {},
