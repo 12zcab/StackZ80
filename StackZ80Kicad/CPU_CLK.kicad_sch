@@ -4452,7 +4452,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9eb28e4a-54bc-49ed-bac0-78354895a41b")
 		(property "Reference" "R11"
 			(at 36.83 69.85 90)
@@ -4465,7 +4464,7 @@
 			)
 		)
 		(property "Value" "10Kohm_CTRL_SIG_PullUP"
-			(at 36.83 72.39 90)
+			(at 36.83 71.755 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4938,7 +4937,7 @@
 				)
 			)
 		)
-		(property "Value" "10Kohm_RST_PullUP"
+		(property "Value" "10Kohm_CTRL_SIG_PullUP"
 			(at 36.83 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5427,7 +5426,7 @@
 				)
 			)
 		)
-		(property "Value" "10Kohm_RST_PullUP"
+		(property "Value" "10Kohm_CTRL_SIG_PullUP"
 			(at 36.83 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5705,7 +5704,7 @@
 				)
 			)
 		)
-		(property "Value" "10Kohm_RST_PullUP"
+		(property "Value" "10Kohm_CTRL_SIG_PullUP"
 			(at 36.83 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)

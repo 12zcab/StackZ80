@@ -1,40 +1,43 @@
 ==Power Module and Serial Module
 Power and Serial Module:
-ICs & Logic
-1x Zilog SIO/2 (Z84C4006PEC / Z84C4010PEC) [DIP-40]
-2x CH340C USB-to-UART [SOP-16]
-1x 74HCT688
-2x USB-C Receptacles (HRO TYPE-C-31-M-12)
-2x 20-pin Stacking Headers (2.54mm, dual-row, long pins)
-1x SS-12D00 Slide Switch
-
-Power & Protection
-1x 3A Polyfuse Resettable Fuse
-1x 47µF–100µF Electrolytic Capacitor (10V+)
-4x 0.1µF (104) Bypass Capacitors
-
-Resistors & LEDs
-4x 5.1kΩ Resistors (USB-C CC lines Signal)
-5x 1kΩ Resistors for LED
-5x LEDs (1x Power, 2x Port A RX/TX, 2x Port B RX/TX)1x 6 DIP Switch
-1x  6 Resistor Network
-
+104 Capacitor x4 for decoupling
+100uF Capacitor x1 for Power Source
+LED x5 for Power Signal,TX1,RX1,TX2 and RX2.
+3A Polyfuse x1 for Power
+USB C 16Pin x2 for two serial port
+5.1kOhm Resistor x4
+1kOhm Resistor x5
+10kOhm Resistor Network x1 for Address pull up
+Three Pin OnOff Switch x1 for Power Switch
+6 Bit DIP switch x1 for programming the Serial Port IO address.
+Three Pin OnOff Switch x1 for IEI switch
+CH340C SMD Component X2 for USB TTL IC handle
+74HCT688 x1 for Address Programme comparing
+Z84C42BB6 x1 Dual Serial Z80 IO Chip
 
 
 
 ==CPU and Clock Module (8MHz)
-ICs & Logic
-1x Zilog Z80 CPU (Z84C0008PEC) [DIP-40] (8MHz rated CMOS version)
-1x 7.3728 MHz Active Crystal Oscillator [DIP-14 / 4-pin]
-1x 74HCT04 Hex Inverter [DIP-14] (Essential for clock buffering)
-2x 20-pin Stacking Headers (2.54mm, dual-row, long pins)
-Power & Protection
-1x 10µF Electrolytic Capacitor (10V+) [Radial] (For Power-On Reset delay)
-3x 0.1µF (104) Bypass Capacitors [Ceramic] (One each for CPU, Oscillator, and 74HCT04)
-Resistors & Buttons
-1x 10kΩ Bussed Resistor Network [DIP-9 or DIP-10] (For pulling up Z80 control lines)
-1x 10kΩ Resistor [Through-hole] (For the Reset RC circuit)
-1x Tactile Push Button (6x6mm) [Through-hole] (Manual Reset switch)
+10uF 10V+ Capacitor x1 for auto reset on power
+104 Capacitor x3 for decoupling
+LED x1 for Clock Signal Visualizing
+10Kohm  resistor x5 for Signal Pull ups
+THT 6mm Push Button x1 for Reset Signal
+SPDT Switch x1 for Auto Clock Enable and Disable
+Z84C0008P x1 for the main CPU of the Computer (8MHz Clock Zilog80)
+74HCT04 x1 for clock buffering
+7.3728MHz Crystal x1 for Clock signal generation
 
 
 ==Memory Module
+LED x1 for Enabled Signal Visualization
+10KOhm Resistor Network x4 for Pulling Up the 74HCT688
+DIP switch 8 bit x4 for masking and setting Address Compare signal
+SDPT Switch x1 for Enabling and Disabling the Memory for User
+74HCT688 x2 for comparing the address bus with the user input
+74LS32 x1 Or Gate for Signal Buffering
+
+28C256 or 62256 x1 for Memory IC itself (EEPROM or RAM)
+
+
+==Developer Panel Module

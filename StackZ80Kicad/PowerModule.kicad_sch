@@ -4432,6 +4432,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ALERT\nTHE IE UP DOWN SYSTEM IS REPLACED BY 30 INT Pins BUT THIS PART IS NOT YET UPDATED"
+		(exclude_from_sim no)
+		(at 98.425 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a454c90d-eb67-4222-b1ef-da8a620f70cc")
+	)
 	(junction
 		(at 53.34 45.72)
 		(diameter 0)

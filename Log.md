@@ -28,3 +28,10 @@ Modules that I should finish first:
 -Programming Module and a Simple Z80 Minimum Board with Arduino Nano for Testing
 -Debug Module
 Before 6/6/2026, I need to finish all the basic requirements for CP/M OS and submit this project for review first to build the Basic Part of the Computer and get enough hrs for FallOut IRL Event
+
+Day5 StackZ80 29/5/2026
+
+Finished the concept and design of the Control Panel Module.
+also wrote the essential components in the DesignLog.txt
+
+Need to finish the Control Panel Module next time and plan for the Simple Minimum Board for Testing.(Same board for programming Module)   the firmware for the Module will be a edited version of TreverMake's YouTube Video
