@@ -5480,16 +5480,6 @@
 		)
 		(uuid "9c03447c-3c00-41ed-8dd1-17d197ae582e")
 	)
-	(label "ADDR[0..15]"
-		(at 57.15 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9eafb3a3-b6f3-4bc7-b3c1-f9e614e7a068")
-	)
 	(label "ADDR4"
 		(at 109.22 51.435 0)
 		(effects
@@ -5734,6 +5724,17 @@
 			(justify right)
 		)
 		(uuid "39419af2-71f5-40f7-b170-a2b6d2f6f1fa")
+	)
+	(hierarchical_label "ADDR[0..15]"
+		(shape bidirectional)
+		(at 57.15 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52c3facb-6e44-42fb-aa4d-672164806ce9")
 	)
 	(hierarchical_label "~{WE}"
 		(shape bidirectional)

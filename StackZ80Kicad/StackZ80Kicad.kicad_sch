@@ -144,6 +144,52 @@
 		)
 	)
 	(sheet
+		(at 160.02 17.145)
+		(size 25.4 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bd20b493-96c9-4904-9dfe-26059cd68e0e")
+		(property "Sheetname" "Minimum Board"
+			(at 160.02 16.4334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Minimum.kicad_sch"
+			(at 160.02 40.5896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "StackZ80Kicad"
+				(path "/4c0a47eb-fb3e-465f-943c-b46f6cbe080d"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 26.035 17.145)
 		(size 23.495 22.86)
 		(exclude_from_sim no)

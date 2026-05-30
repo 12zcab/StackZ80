@@ -35,3 +35,8 @@ Finished the concept and design of the Control Panel Module.
 also wrote the essential components in the DesignLog.txt
 
 Need to finish the Control Panel Module next time and plan for the Simple Minimum Board for Testing.(Same board for programming Module)   the firmware for the Module will be a edited version of TreverMake's YouTube Video
+
+Day6 StackZ80 30/5/2026
+
+Finished the Simple Minimum Board Circuit Designing and will move on to the routing part of the board first i think before continuing on the Control Panel
+also i need to list the components of the minimum board  in the designlog later.

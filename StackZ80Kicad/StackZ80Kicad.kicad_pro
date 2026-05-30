@@ -434,7 +434,7 @@
         "uuid": "4c0a47eb-fb3e-465f-943c-b46f6cbe080d"
       }
     ],
-    "used_designators": "RN1-13,F1,R1,R3-15,J1-4,U1-28,SW1-20,D2-9,Y1,C6-9,BAR1-11",
+    "used_designators": "RN1-13,F1,R1,R3-61,J1-4,U1-28,SW1-20,D2-10,Y1,C6-10,BAR1-15,A1",
     "variants": []
   },
   "sheets": [
@@ -461,6 +461,10 @@
     [
       "82c5b138-c5ff-4c6a-92e5-d003abf2b72a",
       "Control Panel"
+    ],
+    [
+      "bd20b493-96c9-4904-9dfe-26059cd68e0e",
+      "Minimum Board"
     ]
   ],
   "text_variables": {},
