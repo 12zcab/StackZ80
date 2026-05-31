@@ -40,3 +40,9 @@ Day6 StackZ80 30/5/2026
 
 Finished the Simple Minimum Board Circuit Designing and will move on to the routing part of the board first i think before continuing on the Control Panel
 also i need to list the components of the minimum board  in the designlog later.
+
+Day7 StackZ80 31/5/2026
+
+Routed half of the Minimum Board.
+After finishing the PCB of the Minimum Board I will continue and finish the Control Panel.
+After Control Panel,i think i will do the GPIO Module (powered by double 74hc573)
